@@ -18,7 +18,7 @@ $('#wedz-hero-slides').superslides({
 $( document ).on( "click", "#hero_over_link, .invite-button a", function(e) {
   var href = $(this).attr("href"),
       offsetTop = href === "#" ? 0 : $(href).offset().top-59;
-  $('html, body').stop().animate({ 
+  $('html, body').stop().animate({
       scrollTop: offsetTop,
   }, 500, 'easeInExpo');
   e.preventDefault();
@@ -53,7 +53,7 @@ $(window).scroll(function(){
 --------------------------------------------------------------*/
 var winW = $(window).width();
 var winH = $(window).height();
-$(window).resize(function(){ 
+$(window).resize(function(){
   if(winH < 302) {
     $('.main-menu').addClass('overflowScroll');
   }
@@ -76,7 +76,7 @@ $('a').nivoLightbox({
 var gal = $('.wedz-popup');
 gal.magnificPopup({
   type:'inline',
-  midClick: true 
+  midClick: true
 });
 
 $( document ).on( "click", ".single-popup-close", function(e) {
@@ -122,7 +122,7 @@ $(function () {
   menuItems.click(function(e){
     var href = $(this).attr("href"),
         offsetTop = href === "#" ? 0 : $(href).offset().top-48;
-    $('html, body').stop().animate({ 
+    $('html, body').stop().animate({
         scrollTop: offsetTop,
     }, 500, 'easeInExpo');
     e.preventDefault();
@@ -137,7 +137,7 @@ $(function () {
      });
      cur = cur[cur.length-1];
      var id = cur && cur.length ? cur[0].id : "";
-     
+
      if (lastId !== id) {
          lastId = id;
          // Set/remove active class
@@ -195,10 +195,10 @@ $(function () {
   CONTACT FORM INIT
 --------------------------------------------------------------*/
 $( "#wedz-rsvp-form" ).on( "submit", function( e ) {
-        
+
   //Stop form submission & check the validation
   e.preventDefault();
-  
+
   // Variable declaration
   var error       = false,
     name          = $('#wedz_name').val(),
@@ -208,7 +208,7 @@ $( "#wedz-rsvp-form" ).on( "submit", function( e ) {
     mail_fail     = $('#mail_fail'),
     mail_success  = $('#mail_success'),
     submit_btn    = $('#wedz_rsvp_btn');
-  
+
 // Form field validation
   if(name.length <= 1){
       var error = true;
@@ -256,7 +256,7 @@ $( "#wedz-rsvp-form" ).on( "submit", function( e ) {
       });
 
   }
-});   
+});
 
 
 /*--------------------------------------------------------------
@@ -266,7 +266,7 @@ function init() {
 // Basic options for a simple Google Map
 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 // How to get LatLng for more info visit : http://www.latlong.net/convert-address-to-lat-long.html
-  var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+  var myLatLng = new google.maps.LatLng(37.654462, -121.811577);
 
   var mapOptions = {
       zoom: 15,
@@ -278,7 +278,7 @@ function init() {
       scaleControl: false,
       draggable: true,
 
-    // How you would like to style the map. 
+    // How you would like to style the map.
     // This is where you would paste any style found on Snazzy Maps.
     styles: [{
         featureType: 'water',
@@ -329,7 +329,7 @@ function init() {
     }]
 }
 
-// Get the HTML DOM element that will contain your map 
+// Get the HTML DOM element that will contain your map
 // We are using a div with id="map" seen below in the <body>
 var mapElement = document.getElementById('map-canvas');
 
@@ -338,7 +338,7 @@ var map = new google.maps.Map(mapElement, mapOptions);
 
 // Let's also add a marker while we're at it
 var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(22.402789, 91.822156),
+    position: new google.maps.LatLng(37.654462, -121.811577),
     map: map,
     icon: 'images/map-marker.png',
 });
@@ -346,8 +346,7 @@ var marker = new google.maps.Marker({
 }
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
-      
+
 
 	});
 })(jQuery);
-

@@ -5,7 +5,7 @@
 Project:    Wedz
 Version:    0.1
 Last change:    01.03.2016
-Primary use:    Wedding Template  
+Primary use:    Wedding Template
 
 
 [Typography]
@@ -697,7 +697,7 @@ input{
   text-align: center;
   text-transform: capitalize;
 }
-.couple-parents-list > div:nth-child(2n) .parents-thumb, 
+.couple-parents-list > div:nth-child(2n) .parents-thumb,
 .couple-parents-list > div:nth-child(2n) .couple-parent-tagline {
   float: right;
 }
@@ -855,7 +855,6 @@ input{
   text-align: center;
    width: 43%;
   padding-bottom: 60px;
-  margin-top: 50px;
 }
 .wedding-ceremony-header-content header h4 {
   font-size: 1.813em;
@@ -963,8 +962,8 @@ input{
   display: block;
   position: relative;
   overflow: hidden;
-  cursor: -moz-zoom-in; 
-  cursor: -webkit-zoom-in; 
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
 .single-blog-content .partystock-img {
@@ -1264,7 +1263,7 @@ input{
 
 
 /* -----------------------------------------------------------------
-  Reservation Section styles 
+  Reservation Section styles
 ------------------------------------------------------------------*/
 #pixiefy-wedz-reservation-section {
   background-attachment: fixed;
@@ -1302,7 +1301,7 @@ input{
   float: right;
   width: 49%;
 }
-.single-form-item input, 
+.single-form-item input,
 .single-form-item select,
 .single-form-item textarea {
   background-color: #fff;
@@ -1410,7 +1409,7 @@ input{
 
 
 /* -----------------------------------------------------------------
-  Others Mixed styles 
+  Others Mixed styles
 ------------------------------------------------------------------*/
 .photostack figcaption h2 {
   color: #333;
