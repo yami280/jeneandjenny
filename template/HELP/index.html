@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>wedz - Responsive HTML5 Wedding Template - Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		h4 {font-size:16px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Larsia&rdquo; Documentation by &ldquo;PixiefyThemes&rdquo; v0.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;wedz - Responsive HTML5 Wedding Template&rdquo;</h1>
+		
+<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 28/February/2015<br>
+					By: PixiefyThemes<br>
+					Email: <a href="mailto:pixiefytheme@gmail.com">pixiefytheme@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email me via my <a href="http://themeforest.net/user/pixiefy">user page contact form</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#files">Files and Variations</a></li>
+			<li><a href="#htmlStructure">HTML Structure</a>
+				<ul>
+					<li><a href="#htmlhead">HTML and stylesheets</a></li>
+					<li><a href="#htmlbody">HTML body</a></li>
+					<li><a href="#htmlscripts">scripts</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="#changeCounter">CountDown Timer Change</a></li>
+			<li><a href="#imageChange">Change Image</a></li>
+			<li><a href="#cssFiles">CSS</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#map_setup">Google Map Setup</a></li>
+			<li><a href="#contact_form">RSVP Form setup</a></li>
+			<li><a href="#iframe_setup">Google MAP Iframe</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+
+		</ol>
+		
+		
+
+		<hr>
+		<h3 id="files"><strong> Files </strong> - <a href="#toc">top</a></h3>
+		<ol>
+			<li><strong>font-awesome</strong> - font-awesome folder which keeps font awesome fonts and css for font-awesome- More details <a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a></li>
+			<li><strong>images</strong> - images folder contain all the images used in the template</li>
+			<li><strong>fonts</strong> - bootstrap fonts files folder</li>
+			<li><strong>js</strong> - javascript files folder</li>
+			<li><strong>php</strong> - php files folder</li>
+			<li><strong>css</strong> - css files folder</li>
+			<li><strong>index.html</strong> - holds the html code of the template</li>
+			<li><strong>style.css</strong> - holds the styling code of the template</li>
+		</ol>
+		
+		<hr>
+		<hr>
+		<h3 id="changeCounter"><strong>A) Change Counter Down Timer </strong> - <a href="#toc">top</a></h3>
+		<p>To chage countdowntimer go to main.js file inside js folder. Go to line number 155 ( or find WEDZ - DYNAMIC COUNTER INIT - comments ) . After find that script section change your desire date for more info please visit <a href="http://www.littlewebthings.com/projects/countdown/" target="_blank">http://www.littlewebthings.com/projects/countdown/</a></p>
+		<img style="max-width: 100%;" src="assets/images/counter.png" alt="WEDZ CountDown Timer" /><br />
+
+		<hr>
+		<h3 id="imageChange"><strong>A) Change Placeholder Image </strong> - <a href="#toc">top</a></h3>
+		<p>When you download our files you will see we used placholder image instead original those we used in our preview <a href="http://pixiefy.com/themes/wedz/" target="_blank">link</a>. To change with your desire image replace with image src to placeholder image and if you having any problem to where you have to use image to see our live preview and get idea <a href="http://pixiefy.com/themes/wedz/" target="_blank">http://pixiefy.com/themes/wedz/</a></p>
+		
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This template is based on a responsive and full screen layout. And it's built using HTML5 standard. </p>
+		<p><strong>index.html</strong>.
+		<p>From beginning of the "< body >" tag till the ending "< body />" tag, all the codes and texts are used for the Template structure. You can change any text from the template by navigating through the index.html file and localizing each line of text you want to change.</p>
+		
+		<h4 id="htmlhead"><strong>HTML head and stylesheets</strong> - <a href="#toc">top</a></h4>
+		<p>The < head > contains the template title, favicon, font links and all the stylesheets it needs. We used two google fonts "OpenSans" and "Dosis". </p>
+		<p>We used Font Awesome for icons, animate.css for css animatons, owl slider css for owl, superslider css for main slider, componet for gallery and Responsive css styles are in responsive.css inside css folder. </p>
+		<img style="max-width: 100%;" src="assets/images/head-1.png" alt="HTML head contents" /><br /><br />
+
+		<h4 id="htmlbody"><strong>HTML body</strong> - <a href="#toc">top</a></h4>
+		<p>The < body > contains all the contents of the template. From the beginning, Every section has different comment. </p>
+		<p><strong>NOTE:</strong>Home page body has a class name with "home"</p>
+		<img style="max-width: 100%;" src="assets/images/homeclass.png" alt="HTML About" /><br /><br />
+
+		<h4 id="htmlscripts"><strong>HTML footer and scripts</strong> - <a href="#toc">top</a></h4>
+		<p>At the footer we used jquery-2.0.2 version, my custom scripts and all the necessary plugin JavaScripts depending on the variations. </p>
+		<img style="max-width: 100%;" src="assets/images/footer.png" alt="HTML head contents" /><br /><br />
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>C) CSS</strong> - <a href="#toc">top</a></h3>
+
+		<p><strong>style.css</strong> -  Main stylesheet which includes all the styles of the template. It is located in the root folder of the template. and all other css file contain the css folder</p> 
+		<p>You can change the colors and the template styles by changing the css files in template root. </p>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+		<hr>
+		
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>All our javascript file are contain in js folder and also some of script are in footer for specific reason</p>
+		
+		<ol>
+			<li><strong>jquery-2.0.2.js</strong> - <a href="http://jquery.com/">Jquery</a> is a JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. The template is using the library hosted by google, for faster loading of the webpage.</li>
+			<li><strong>jquery.easing.1.3.js</strong> - jQuery easing plugin</li>
+			<li><strong>nivo-lightbox.min.js</strong> - jQuery nivo lightbox plugin</li>
+			<li><strong>classie.js</strong> - jQuery js script for gallery</li>
+			<li><strong>photostack.js</strong> - jQuery photstack gallery plugin</li>
+			<li><strong>bootstrap.min.js</strong> - jQuery bootstrap script</li>
+			<li><strong>jquery.magnific-popup.min.js</strong> - jQuery magnific popup plugin</li>
+			<li><strong>jquery.appear.js</strong> - jQuery appear plugin</li>
+			<li><strong>owl.carousel.min.js</strong> - jQuery pwl carousel slider plugin</li>
+			<li><strong>jquery.superslides.min.js</strong> - jQuery superslides plugin</li>
+			<li><strong>smoothscroll.js</strong> - jQuery smoothscroll plugin</li>
+			<li><strong>main.js</strong> - wedz all script init file</li>
+		</ol>
+		  
+		 <hr>
+
+		<h3 id="googlemap">E) <strong>How to setup google map</strong> - <a href="#toc">top</a></h3>
+		<p>To change the <strong>google map</strong> location to your preferred location change in the main.js file inside js folder. Go to line number 262 - 348 ( or find WEDZ GOOGLEMAP INIT - comments ) and change the location latitude and longitude. My personal recommendation is <a href="http://www.latlong.net/convert-address-to-lat-long.html" target="_blank">http://www.latlong.net/convert-address-to-lat-long.html</a> to convers address to latitude and longitude </p>
+		and also you can change your desire address from google map marker. see in screenshots.
+		<img style="max-width: 100%;" src="assets/images/google_map.png" alt="Google Map" /><br /><br />
+
+		
+		<h3 id="php"><strong>F) How to setup RSVP from</strong> - <a href="#toc">top</a></h3>
+		
+		<p>To set up the contact form to send emails with the persons which are contacting you to your desire email addres, open "php/config.php" file and change the email from line 4 with your own email.</p>		
+		<pre>define( 'CONTACT_FORM_RECIPIENT', 'example@email.net');</pre>
+		<img style="max-width: 100%;" src="assets/images/config.png" alt="rsvp config" /><br /><br />
+
+		<p>To receive emails, the entire template needs to be uploaded to a server which supports either PHP4 or PHP5.</p>
+
+		<h3 id="iframe_setup"><strong>G) Google Map iframe Setup</strong> - <a href="#toc">top</a></h3>
+
+		<p>To setup google map iframe please visit <a target="_blank" href="https://www.google.com/maps">www.google.com/maps</a> and create your owl map and grab the iframe code from googlep map and paste in here</p>
+		<img style="max-width: 100%;" src="assets/images/iframe.png" alt="Google Map Iframe" /><br /><br />
+		
+		<h3 id="credits"><strong>H) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<ul>
+			<li>Jquery - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+			<li>Bootstrap v3.3.6 - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+			<li>Nivo Lightbox - <a href="https://github.com/gilbitron/Nivo-Lightbox">https://github.com/gilbitron/Nivo-Lightbox</a></li>
+			<li>photostack.js - <a href="http://tympanus.net/codrops/">http://tympanus.net/codrops/</a></li>
+			<li>Magnific Popup - <a href="http://dimsemenov.com/plugins/magnific-popup/documentation.html">http://dimsemenov.com/plugins/magnific-popup/documentation.html</a></li>
+			<li>appear.js - <a href="https://github.com/morr/jquery.appear.js">https://github.com/morr/jquery.appear</a></li>
+			<li>superslides - <a href="https://github.com/nicinabox/superslides">https://github.com/nicinabox/superslides</a></li>
+			<li>smoothscroll.js - <a href="https://github.com/iahnn/Firefox-like-smooth-scroll-for-chrome">https://github.com/iahnn/Firefox-like-smooth-scroll-for-chrome</a></li>
+			<li>owl.carousel.min.js - <a href="http://owlgraphic.com/owlcarousel/" target="_blank">http://owlgraphic.com/owlcarousel/</a></li>
+			<li>Font-Awesome - <a href="http://fortawesome.github.io/Font-Awesome/">http://fortawesome.github.io/Font-Awesome/</a></li>
+			<li>Images - <a href="link" target="http://pexels.com/">http://pexels.com/</a></li>
+			<li>Images - <a href="http://stocksnap.io/" target="_blank">http://stocksnap.io/</a></li>
+			<li>Images - <a href="http://picjumbo.com/" target="_blank">http://picjumbo.com/</a></li>
+			<li>Gallery - <a href="http://tympanus.net/codrops/2014/01/28/scattered-polaroids-gallery/" target="_blank">http://tympanus.net/codrops/2014/01/28/scattered-polaroids-gallery/</a></li>
+			<li>etc
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template.</p> 
+		
+		<p class="append-bottom alt large"><strong>PixiefyThemes.com</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
