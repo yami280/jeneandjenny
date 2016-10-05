@@ -1164,6 +1164,7 @@ input {
     -o-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     width: 255px;
+    cursor: pointer;
 }
 
 .map-address-wed-party h6 {

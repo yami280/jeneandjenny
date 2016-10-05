@@ -105,7 +105,10 @@
             pagination: false
         });
 
-
+        $('.map-address-wed-party').click(function() {
+					var url = "https://www.google.com/maps/dir/''/google+maps+casa+real/@37.6514559,-121.8772069,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808fdd55857c2aab:0x2ffc930768c5ce0a!2m2!1d-121.8071669!2d37.6514766";
+					window.open(url, "_blank");
+				});
 
         /*--------------------------------------------------------------
           WEDZ - MENU ACTIVE INIT
