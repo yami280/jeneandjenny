@@ -40,7 +40,7 @@ a:focus {
 }
 
 a {
-    color: #E59DC9;
+    color: #FAB8D0;
     font-size: 0.8em;
 }
 
@@ -66,7 +66,7 @@ h2 {
 }
 
 h3 {
-    color: #E59DC9;
+    color: #FAB8D0;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -125,7 +125,7 @@ input {
 }
 
 .single-wedz-overley {
-    background: #E59DC9 none repeat scroll 0 0;
+    background: #FAB8D0 none repeat scroll 0 0;
     height: 100%;
     opacity: 0;
     left: 0;
@@ -156,7 +156,7 @@ input {
 }
 
 .wedz-section-header h2:after {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     content: "";
     height: 2px;
     width: 50px;
@@ -208,7 +208,7 @@ input {
 }
 
 .wedz-button:hover, .wedz-button:active, .wedz-button:focus {
-    color: #E59DC9;
+    color: #FAB8D0;
 }
 
 .wedz-button:hover:after, .wedz-button:active:after, .wedz-button:focus:after {
@@ -231,7 +231,7 @@ input {
 }
 
 .wedz-section-overley {
-    background-color: #ba6599;
+    background-color: #FAB8D0;
     bottom: 0;
     left: 0;
     position: absolute;
@@ -314,7 +314,7 @@ input {
 }
 
 #pixiefy-wedz-main-menu {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     left: 0;
     position: absolute;
     top: 0;
@@ -375,7 +375,7 @@ input {
     border-radius: 50%;
     position: absolute;
     display: block;
-    box-shadow: inset 0 0 0 12px #E59DC9, 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 12px #FAB8D0, 0 1px 2px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -385,7 +385,7 @@ input {
 
 .ch-info {
     display: table;
-    background: #E59DC9;
+    background: #FAB8D0;
     width: 100%;
     height: inherit;
     border-radius: 50%;
@@ -440,11 +440,11 @@ input {
 
 .ch-info p a:hover {
     color: #fff222;
-    color: #E59DC9;
+    color: #FAB8D0;
 }
 
 .ch-item:hover {
-    box-shadow: inset 0 0 0 1px #E59DC9, 0 1px 2px #E59DC9;
+    box-shadow: inset 0 0 0 1px #FAB8D0, 0 1px 2px #FAB8D0;
 }
 
 .ch-item:hover .ch-info {
@@ -670,8 +670,8 @@ input {
 
 .parents-thumb {
     background-color: #f6f6f6;
-    border-left: 2px solid #E59DC9;
-    border-right: 2px solid #E59DC9;
+    border-left: 2px solid #FAB8D0;
+    border-right: 2px solid #FAB8D0;
     display: block;
     float: left;
     width: 74%;
@@ -684,7 +684,7 @@ input {
 }
 
 .single-parents-thumb a::before {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     content: "";
     display: block;
     height: 2px;
@@ -697,7 +697,7 @@ input {
 }
 
 .single-parents-thumb a::after {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     content: "";
     display: block;
     height: 2px;
@@ -792,7 +792,7 @@ input {
 }
 
 .couple-parent-tagline h6 {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     color: #ffffff;
     display: inline-block;
     font-family: "Great Vibes", cursive;
@@ -827,7 +827,7 @@ input {
 }
 
 .single-bridemaid-groommen a::before {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     bottom: 0;
     content: "";
     display: block;
@@ -840,7 +840,7 @@ input {
 }
 
 .single-bridemaid-groommen a::after {
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
     bottom: 0;
     content: "";
     display: block;
@@ -863,7 +863,7 @@ input {
 }
 
 .single-bridemaid-groommen a figure figcaption {
-    border-bottom: 2px solid #E59DC9;
+    border-bottom: 2px solid #FAB8D0;
     padding-bottom: 21px;
     padding-top: 20px;
 }
@@ -895,7 +895,7 @@ input {
     height: 0;
     transition: height 0.4s ease-in-out 0.4s;
     -webkit-transition: height 0.4s ease-in-out 0.4s;
-    background-color: #E59DC9;
+    background-color: #FAB8D0;
 }
 
 .single-bridemaid-groommen a:hover figcaption h4, .single-bridemaid-groommen a:hover figcaption small {
@@ -1008,12 +1008,9 @@ input {
 ------------------------------------------------------------------*/
 
 #pixiefy-wedz-gift-registration {
-    background-attachment: fixed;
-    background-image: url("images/pattern.png");
-    background-repeat: repeat;
-    background-size: auto auto;
+    background-color: #FAB8D0;
     padding-bottom: 100px;
-    padding-top: 130px;
+    padding-top: 100px;
     position: relative;
 }
 
@@ -1137,7 +1134,7 @@ input {
 }
 
 .signle-date-time-wed-party h6 {
-    color: #E59DC9;
+    color: #FAB8D0;
     font-size: 1.188em;
     letter-spacing: 1px;
     margin: 0;
@@ -1388,7 +1385,7 @@ input {
 }
 
 .right-testimonial-data header h4 {
-    color: #ba6599;
+    color: #FAB8D0;
     margin: 0;
 }
 
@@ -1411,7 +1408,7 @@ input {
 
 #pixiefy-wedz-footer-section {
     background-attachment: fixed;
-    background-image: url("images/footer.png");
+    background-image: url("images/footer_final.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
@@ -1440,7 +1437,7 @@ input {
 
 #pixiefy-wedz-reservation-section {
     background-attachment: fixed;
-    background-color: #ba6599;
+    background-color: #FAB8D0;
     background-image: url("images/pattern.png");
     position: relative;
 }
@@ -1698,7 +1695,7 @@ body.home .logoSticked.stick-logo {
 }
 
 .single-blog-content blockquote {
-    border-left: 5px solid #E59DC9;
+    border-left: 5px solid #FAB8D0;
     font-size: 17.5px;
     margin: 20px 0;
     padding: 15px 20px;
@@ -1731,8 +1728,8 @@ body.home .logoSticked.stick-logo {
 }
 
 .social-link-area a:hover {
-    background-color: #E59DC9;
-    border: 1px solid #E59DC9;
+    background-color: #FAB8D0;
+    border: 1px solid #FAB8D0;
     color: #fff;
 }
 
@@ -1779,7 +1776,7 @@ button.responsive-trigger {
     border-radius: 50%;
     position: absolute;
     display: block;
-    box-shadow: inset 0 0 0 12px #ba6599, 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0 12px #FAB8D0, 0 1px 2px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;

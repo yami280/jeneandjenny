@@ -20,7 +20,7 @@
 }
 
 }
- 
+
 /* Tablet desktop :768px. */
 @media (max-width: 1024px) {
 
@@ -80,7 +80,7 @@
   width: 42%;
 }
 .main-menu {
-  background-color: #f0394d;
+  background-color: #FAB8D0;
   display: none;
   max-height: calc(85vh - 150px);
   position: absolute;
@@ -99,7 +99,7 @@
   padding: 8px 15px;
 }
 .main-menu nav ul li a {
-  background-color: #f0394d;
+  background-color: #FAB8D0;
   display: block;
   padding: 8px 15px;
   width: 100%;
@@ -111,7 +111,7 @@ button.responsive-trigger {
 
 }
 
- 
+
 /* small mobile :320px. */
 @media (max-width: 767px) {
 #pixiefy-wedz-wedding-ceremony::after {
@@ -262,14 +262,14 @@ button.responsive-trigger {
   width: 100%;
 }
 .parents-thumb {
-  border-left: 0 solid #f0394d;
-  border-right: 0 solid #f0394d;
+  border-left: 0 solid #FAB8D0;
+  border-right: 0 solid #FAB8D0;
 }
 .single-parents-thumb a {
   display: block;
   position: relative;
-  border-right: 2px solid #f0394d;
-  border-left: 2px solid #f0394d;
+  border-right: 2px solid #FAB8D0;
+  border-left: 2px solid #FAB8D0;
   margin-bottom: 25px;
 }
 .couple-parents-list {
