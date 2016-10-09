@@ -1008,7 +1008,9 @@ input {
 ------------------------------------------------------------------*/
 
 #pixiefy-wedz-gift-registration {
+    background-attachment: fixed;
     background-color: #FAB8D0;
+    background-size: auto auto;
     padding-bottom: 100px;
     padding-top: 100px;
     position: relative;
