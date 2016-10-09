@@ -1149,6 +1149,8 @@ input {
 
 .map-wedding-party {
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .map-address-wed-party {
